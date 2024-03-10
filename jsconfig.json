@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "@/components/*": ["src/components/*"],
+        "@/views/*": ["src/views/*"],
+        "@/assets/*": ["src/assets/*"],
+        "@/plugins/*": ["src/plugins/*"],
+        "@/layouts/*": ["src/layouts/*"],
+        "@/store/*": ["src/store/*"]
+      }
+    },
+    "exclude": ["node_modules", ".nuxt", "dist"]
+  }
+  
